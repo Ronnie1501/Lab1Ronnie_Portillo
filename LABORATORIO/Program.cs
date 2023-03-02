@@ -4,23 +4,21 @@ using LABORATORIO.Negocio;
 Persona per = new Persona();
 ClsPersona clsPersona = new ClsPersona();
 
-Console.Write(@"Bienvenido a su calculador de IMC
+Console.Write(@"Ingrese los siguientes datos para continuar 
 
-Ingrese los siguientes datos para continuar 
-
-Ingrese su Nombre -> ");
+Ingrese su Nombre: ");
 per.Nombre = Console.ReadLine();
 
-Console.Write("\nIngrese su edad -> ");
+Console.Write("\nIngrese su edad: ");
 per.Edad = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("\nIngrese su sexo -> ");
+Console.Write("\nIngrese su sexo: ");
 per.Sexo = Console.ReadLine();
 
-Console.Write("\nIngrese su peso en Kg. -> ");
+Console.Write("\nIngrese su peso en kg: ");
 per.Peso = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("\nIngrese su altura en metros -> ");
+Console.Write("\nIngrese su altura en metros: ");
 per.Altura = Convert.ToDouble(Console.ReadLine());
 
 Console.Write($@"
